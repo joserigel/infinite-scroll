@@ -26,3 +26,8 @@ backend/target
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+### SANDBOX ###
+env
+*.mp4
+sandbox/*.json
