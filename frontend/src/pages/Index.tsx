@@ -2,7 +2,6 @@ import React from "react";
 import Layout from "../components/Layout";
 import { Button } from "../components/Button";
 import { AiFillLike, AiFillDislike } from "react-icons/ai";
-import { FaChevronUp } from "react-icons/fa";
 
 
 
@@ -11,7 +10,7 @@ const Index = () => {
     <Layout>
       <div className="flex flex-col p-5 grow justify-center items-center ">
         <div className="grow flex-row flex gap-3">
-          
+
           <div className="w-96 deboss rounded-2xl p-10 flex flex-col items-center justify-center">
             <div className="bg-black h-full aspect-[9/16]">
 

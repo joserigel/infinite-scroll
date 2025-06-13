@@ -4,11 +4,14 @@ import "./components.css";
 interface ButtonProps {
   children?: string | JSX.Element | JSX.Element[];
   className?: string;
+  checked?: boolean;
   [x: string]: any;
 }
 
-export const Button = ({children, className, ...rest}: ButtonProps) => (
-  <div className={`rounded-button p-1 rounded-full emboss ${className}`}>
+export const Button = ({children, className, checked, ...rest}: ButtonProps) => (
+  <div className={`rounded-button p-1 rounded-full emboss 
+    ${ checked && 'checked'} ${className}
+  `}>
     <button 
       className={`
         w-full rounded-full h-full

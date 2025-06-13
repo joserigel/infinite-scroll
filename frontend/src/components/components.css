@@ -2,6 +2,10 @@
   background: linear-gradient(-45deg, #fffa, #0001);
 }
 
+.rounded-button.checked > button {
+  background: #4181ff !important;
+}
+
 .rounded-button > button {
   background: 
     linear-gradient(to bottom,
